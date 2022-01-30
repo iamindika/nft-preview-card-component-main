@@ -10,7 +10,7 @@ body {
 
 .nft-desc__title {
   color: hsl(0, 0%, 100%);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.3125rem;
 }
 
@@ -27,6 +27,10 @@ img {
   background-color: hsl(216, 50%, 16%);
 }
 
+.blur {
+  opacity: .75;
+}
+
 .nft-logo {
   width: 278px;
   height: 278px;
@@ -39,6 +43,11 @@ img {
 }
 
 .nft-desc__title {
+  margin-top: 0;
+  margin-bottom: .75rem;
+}
+
+.nft-desc__text {
   margin: 0;
 }
 
