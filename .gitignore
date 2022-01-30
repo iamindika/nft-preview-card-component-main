@@ -1,5 +1,6 @@
 /design
 node_modules
+dist
 .DS_Store
 README-template.md
 style-guide.md
