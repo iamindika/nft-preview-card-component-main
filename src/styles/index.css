@@ -17,12 +17,13 @@ img {
   width: 327px;
   margin: 0 auto;
   border-radius: 5%;
-  padding: 1.5em;
+  padding: 1.5rem;
   background-color: hsl(216, 50%, 16%);
 }
 
-.logo {
+.nft-logo {
   width: 278px;
+  height: 278px;
 }
 
 .attribution { 
