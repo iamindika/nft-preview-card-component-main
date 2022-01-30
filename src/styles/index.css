@@ -1,3 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font: 400 1.125rem 'Outfit', sans-serif;
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
