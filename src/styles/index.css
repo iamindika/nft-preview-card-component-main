@@ -8,6 +8,14 @@ body {
   font: 400 1.125rem 'Outfit', sans-serif;
 }
 
+.container {
+  width: 327px;
+  margin: 0 auto;
+  border-radius: 5%;
+  padding: 1.5em;
+  background-color: hsl(216, 50%, 16%);
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
