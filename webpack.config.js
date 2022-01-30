@@ -9,8 +9,8 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.(js)/, use: 'babel-loader' },
-      { text: /\.css/, use: [ 'style-loader', 'css-loader' ] }
+      { test: /\.(js)$/, use: 'babel-loader' },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] }
     ]
   }, 
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
