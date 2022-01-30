@@ -8,6 +8,12 @@ body {
   font: 400 1.125rem 'Outfit', sans-serif;
 }
 
+.nft-desc__title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.3125rem;
+}
+
 img {
   max-width: 100%;
   border-radius: 3%;
@@ -24,6 +30,12 @@ img {
 .nft-logo {
   width: 278px;
   height: 278px;
+}
+
+.nft-desc {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
 .attribution { 
