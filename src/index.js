@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import NFTContainer from "./components/NFTContainer";
 import './styles/index.css'
 
 ReactDOM.render(
-  <App />,
+  <NFTContainer />,
   document.getElementById('app')
 )
