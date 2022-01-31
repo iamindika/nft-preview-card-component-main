@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import NFTContainer from "./components/NFTContainer";
+import NFTLogo from '../src/components/NFTLogo';
+import NFTDesc from '../src/components/NFTDesc';
+import NFTAuthor from '../src/components/NFTAuthor';
 import './styles/index.css'
 
 ReactDOM.render(
-  <NFTContainer />,
-  document.getElementById('app')
+  <React.Fragment>
+    <NFTLogo />
+    <NFTDesc />
+    <NFTAuthor />
+  </React.Fragment>,
+  document.getElementById('container')
 )

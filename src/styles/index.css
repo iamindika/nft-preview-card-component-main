@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 0;
   background-color: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
   font: 300 1.125rem 'Outfit', sans-serif;
@@ -38,9 +39,9 @@ img {
   border-radius: 3%;
 }
 
-.container {
+#container {
   width: 327px;
-  margin: 0 auto;
+  margin: 10rem auto 1rem;
   border-radius: 4%;
   padding: 1.5rem;
   background-color: hsl(216, 50%, 16%);
@@ -124,10 +125,12 @@ img {
 .nft-author__avatar {
   width: 33px;
   height: 33px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
 }
 
 .nft-author__info {
-  margin: 0
+  margin: 0;
 }
 
 .nft-author__info--highlight {
