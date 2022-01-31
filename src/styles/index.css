@@ -94,7 +94,7 @@ img {
 }
 
 .nft-desc__title {
-  transition: .5s ease;
+  transition: 1s ease;
   display: inline-block;
   margin-top: 0;
   margin-bottom: .75rem;
@@ -134,7 +134,7 @@ img {
 }
 
 .nft-author__info--highlight {
-  transition: .5s ease;
+  transition: 1s ease;
 }
 
 .nft-author__info--highlight:hover{
