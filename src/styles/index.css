@@ -14,6 +14,15 @@ body {
   font-size: 1.3125rem;
 }
 
+.nft-stats {
+  font-size: 0.9375rem;
+}
+
+.nft-stats__rank {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
 img {
   max-width: 100%;
   border-radius: 3%;
@@ -29,6 +38,11 @@ img {
 
 .blur {
   opacity: .75;
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
 
 .nft-logo {
@@ -49,6 +63,15 @@ img {
 
 .nft-desc__text {
   margin: 0;
+}
+
+.nft-stats {
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.nft-stats__icon {
+  margin-right: .5rem;
 }
 
 .attribution { 
