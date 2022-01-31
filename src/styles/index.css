@@ -8,19 +8,24 @@ body {
   font: 300 1.125rem 'Outfit', sans-serif;
 }
 
-.nft-desc__title {
+.nft-desc__title,
+.nft-author__info--highlight {
   color: hsl(0, 0%, 100%);
-  font-weight: 400;
-  font-size: 1.3125rem;
 }
 
-.nft-stats {
-  font-size: 0.9375rem;
+.nft-desc__title {
+  font-weight: 400;
+  font-size: 1.3125rem;
 }
 
 .nft-stats__rank {
   color: hsl(178, 100%, 50%);
   font-weight: 400;
+}
+
+.nft-stats,
+.nft-author__info {
+  font-size: 0.9375rem;
 }
 
 img {
@@ -72,6 +77,20 @@ img {
 
 .nft-stats__icon {
   margin-right: .5rem;
+}
+
+.nft-author {
+  justify-content: space-between;
+  width: 219px;
+}
+
+.nft-author__avatar {
+  width: 33px;
+  height: 33px;
+}
+
+.nft-author__info {
+  margin: 0
 }
 
 .attribution { 
