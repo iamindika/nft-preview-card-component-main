@@ -27,5 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![NFT Preview Component](./src/assets/images/nft-preview-component.png)
-![NFT Preview Component Active](./src/assets/images/nft-preview-component-active.png)
+![](./src/assets/images/nft-preview-component.png)
+![](./src/assets/images/nft-preview-component-active.png)
+
+### Links
+
+- [Solution URL](https://github.com/iamindika/nft-preview-card-component-main/tree/main/src)
+- [Live Site URL](https://hardcore-lamarr-b9515d.netlify.app/)
