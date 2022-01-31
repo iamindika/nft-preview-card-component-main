@@ -8,14 +8,12 @@ body {
   font: 300 1.125rem 'Outfit', sans-serif;
 }
 
-.nft-desc__title,
-.nft-author__info--highlight {
-  color: hsl(0, 0%, 100%);
-}
+
 
 .nft-desc__title {
+  color: hsl(0, 0%, 100%);
   font-weight: 400;
-  font-size: 1.3125rem;
+  font-size: 1.375rem;
 }
 
 .nft-stats__rank {
@@ -23,9 +21,18 @@ body {
   font-weight: 400;
 }
 
+.nft-author__info--highlight {
+  color: hsl(0, 0%, 100%);
+}
+
 .nft-stats,
 .nft-author__info {
-  font-size: 0.9375rem;
+  font-size: 1rem;
+}
+
+.nft-desc__title:hover,
+.nft-author__info--highlight:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 img {
@@ -50,9 +57,19 @@ img {
   align-items: center;
 }
 
-.nft-logo {
+.nft-banner {
+  position: relative;
   width: 278px;
   height: 278px;
+}
+
+.nft-banner__logo {
+  position: absolute;
+}
+
+.nft-banner__view {
+  position: absolute;
+  top: 0;
 }
 
 .nft-desc {
@@ -62,8 +79,13 @@ img {
 }
 
 .nft-desc__title {
+  display: inline-block;
   margin-top: 0;
   margin-bottom: .75rem;
+}
+
+.nft-desc__title:hover {
+  cursor: pointer;
 }
 
 .nft-desc__text {
@@ -91,6 +113,10 @@ img {
 
 .nft-author__info {
   margin: 0
+}
+
+.nft-author__info--highlight:hover{
+  cursor: pointer;
 }
 
 .attribution { 
